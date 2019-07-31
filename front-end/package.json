@@ -1,0 +1,38 @@
+{
+  "name": "front-end",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "babel-plugin-relay": "^5.0.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-relay": "^5.0.0",
+    "relay-compiler": "^5.0.0",
+    "relay-runtime": "^5.0.0",
+    "styled-components": "^4.3.2"
+  },
+  "devDependencies": {
+    "react-scripts": "3.0.1"
+  },
+  "scripts": {
+    "eject": "react-scripts eject",
+    "build": "node ./setup && react-scripts build",
+    "test": "node ./setup && react-scripts test --env=jsdom",
+    "start": "node ./setup && react-scripts start"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

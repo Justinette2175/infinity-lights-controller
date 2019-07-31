@@ -1,0 +1,1 @@
+npx postgraphile -c postgres://postgres:postgres@127.0.0.1/postgres --watch --enhance-graphiql --dynamic-json
